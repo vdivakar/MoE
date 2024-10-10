@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PyDebug: file with args",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "/Users/dv/opt/miniconda3/bin/python",
+            "program": "${file}", // or "<python_script_path>.py",
+            "console": "integratedTerminal",
+            "env": {"AWESOME_ENV":"0"},
+            "justMyCode": false,
+            "args": [
+                "--test", "dequantize"
+            ]
+        }
+    ]
+} 
